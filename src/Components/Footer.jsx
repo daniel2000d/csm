@@ -4,10 +4,10 @@ import "../styles/Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <MDBFooter color="blue" className="font-small pt-4 mt-4">
+      <MDBFooter color="blue" className="font-small pt-1 mt-1">
         <MDBContainer fluid className="text-center text-md-left">
           <MDBRow>
-            <MDBCol md="6">
+            <MDBCol md="4">
               <h5 className="title">Footer Content</h5>
               <p>Here you can use rows and columns here to organize your footer content.</p>
             </MDBCol>
@@ -21,7 +21,7 @@ const Footer = () => {
             </MDBCol>
           </MDBRow>
         </MDBContainer>
-        <div className="footer-copyright text-center py-3">
+        <div className="footer-copyright text-center py-1">
           <MDBContainer fluid>&copy; {new Date().getFullYear()} Copyright: CSM</MDBContainer>
         </div>
       </MDBFooter>

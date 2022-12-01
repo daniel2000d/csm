@@ -1,8 +1,8 @@
 import Home from "./pages/Home";
-import B from "./pages/B";
+import Meciuri from "./pages/meciuri";
 import React from "react";
-import Login from "./Components/Login";
-import Footer from "./Components/Footer";
+import FormikFormDemo from "./Components/Login";
+import Despre from "./pages/Despre";
 import {BrowserRouter, Route, Routes, Navigate} from "react-router-dom";
 import "./styles/main.css";
 
@@ -12,9 +12,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Navigate replace to="/Home" />} />
-          <Route exact path="/login" element={<Login />} />
+
           <Route exact path="/Home" element={<Home />} />
-          <Route exact path="/b" element={<B />} />
+          <Route exact path="/meciuri" element={<Meciuri />} />
+          <Route exact path="/Despre" element={<Despre />} />
+          <Route exact path="/login" element={<FormikFormDemo />} />
         </Routes>
       </BrowserRouter>
     </div>
