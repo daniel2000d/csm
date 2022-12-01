@@ -1,0 +1,9 @@
+.footer {
+    font-style: italic;
+    background-color: #1876BC;
+    color: black;
+    padding-top: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
