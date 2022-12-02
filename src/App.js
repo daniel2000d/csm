@@ -1,6 +1,4 @@
 import './Styles/App.css';
-import NavBar from './Components/Navbar';
-import Footer from './Components/Footer';
 import Home from './pages/Home';
 import Info from './pages/Info';
 import Matches from './pages/Matches';
@@ -11,12 +9,7 @@ function App() {
   return (
     <div className="page-container">
       <div className="content-wrap">
-          <NavBar />
-          
           <Routes>
-            {/* Not Found Route */}
-            <Route path="/" element={<Home />} />
-            
             {/* Home Route */ }
             <Route path="/home" element={<Home />} />
 
@@ -30,7 +23,7 @@ function App() {
             <Route path="/login" element={<Login />} />
           </Routes>
       </div>
-      <Footer />
+
     </div>
   );
 }
