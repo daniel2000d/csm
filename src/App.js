@@ -11,7 +11,7 @@ function App() {
       <div className="content-wrap">
           <Routes>
             {/* Home Route */ }
-            <Route path="/home" element={<Home />} />
+            <Route path="/" element={<Home />} />
 
             {/* Info Route */}
             <Route path="/info" element={<Info />} />

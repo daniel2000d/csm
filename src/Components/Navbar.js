@@ -9,11 +9,11 @@ const NavBar = () => {
         <div className="Navbar">
             <Navbar collapseOnSelect expand="sm">
             <Container>
-                <Navbar.Brand href="/home" className="link-dark">Club Sportiv Municipal-Suceava</Navbar.Brand>
+                <Navbar.Brand href="/" className="link-dark">Club Sportiv Municipal-Suceava</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
                 <Nav>
-                    <Nav.Link href="/home" className="link-dark">Acasa</Nav.Link>
+                    <Nav.Link href="/" className="link-dark">Acasa</Nav.Link>
                     <Nav.Link href="info" className="link-dark">Despre</Nav.Link>
                     <Nav.Link href="matches" className="link-dark">Meciuri</Nav.Link>
                 </Nav>
